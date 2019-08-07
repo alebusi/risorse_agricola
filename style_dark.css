@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  color: white;
 }
 
 .wrapper {
@@ -18,7 +19,7 @@ body {
     cursor: default;
 }
 
-.risorsa:hover {background-color: #ffcc66;}
+.risorsa:hover {background-color: #5F5F5F;}
 
 .trasparente {
     display: inline-block;
@@ -62,7 +63,7 @@ body {
 }
 
 #pecora, #cinghiale, #bestiame {
-    color: blue;
+    color: 80FFFF;
 }
 
 .button {
