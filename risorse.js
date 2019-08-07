@@ -82,3 +82,17 @@ function myfunc3(div) {
   var suona = new Audio('success.wav');
   suona.play();
 }
+
+function CambiaStile() {
+       var ss = document.styleSheets;
+
+        if(ss[1].disabled){
+                ss[1].disabled = false;
+                ss[0].disabled = true;
+        }
+        else if(ss[0].disabled)
+        {
+                ss[1].disabled = true;
+                ss[0].disabled = false;
+        }
+}
