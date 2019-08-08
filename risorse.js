@@ -3,11 +3,11 @@ var cambio = 0;
 var secondi = 0;
 /*var success = new Audio('success.wav');*/
 
-/*function init() {
+function init() {
         e = document.getElementById("tempo");
         setInterval(function() { e.innerHTML = ++secondi; }, 1000);
         }
-window.onload = init;*/
+window.onload = init;
 
 function myfunc(id,i,ind) {
   if (cambio == 0)
