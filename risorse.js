@@ -84,7 +84,7 @@ function myfunc3(div) {
 }
 
 function CambiaStile(sheet) {
-        if (document.getElementById('pagestyle').getAttribute('href')="style.css") {
+        if (document.getElementById('pagestyle').getAttribute('href')=="style.css") {
            document.getElementById('pagestyle').setAttribute("href",sheet);
         }
         else {
