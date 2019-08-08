@@ -83,6 +83,11 @@ function myfunc3(div) {
   suona.play();
 }
 
-function CambiaStile(sheet) {       
-        document.getElementById('pagestyle').setAttribute('href',sheet);
+function CambiaStile(sheet) {
+        if (document.getElementById('pagestyle').getAttribute('href')="style.css") {
+           document.getElementById('pagestyle').setAttribute("href",sheet);
+        }
+        else {
+           document.getElementById('pagestyle').setAttribute("href","style.css");
+        }
 }
