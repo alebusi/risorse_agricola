@@ -85,6 +85,8 @@ function myfunc3(div) {
 
 function CambiaStile() {
        var ss = document.styleSheets;
+        var suona = new Audio('success.wav');
+         suona.play();
 
         if(ss[1].disabled){
                 ss[1].disabled = false;
