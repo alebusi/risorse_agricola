@@ -83,18 +83,6 @@ function myfunc3(div) {
   suona.play();
 }
 
-function CambiaStile() {
-       var ss = document.styleSheets;
-        var suona = new Audio('success.wav');
-         suona.play();
-
-        if(ss[1].disabled){
-                ss[1].disabled = false;
-                ss[0].disabled = true;
-        }
-        else if(ss[0].disabled)
-        {
-                ss[1].disabled = true;
-                ss[0].disabled = false;
-        }
+function CambiaStile(sheet) {       
+        document.getElementById('pagestyle').setAttribute('href',sheet);
 }
