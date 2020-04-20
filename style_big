@@ -1,0 +1,102 @@
+.wrapper {
+    margin: 0 auto;
+    background-color: white;
+}
+
+.risorsa {
+    display: inline-block;
+    width: 44vw;
+    padding: 3vh 0;
+    text-align: center;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 46vh;
+    font-weight: bold;
+    cursor: default;
+}
+
+.risorsa:hover {background-color: #ffcc66;}
+
+.trasparente {
+    display: inline-block;
+    width: 44vw;
+    padding: 3vh 0;
+    text-align: center;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 46vh;
+    font-weight: bold;
+    cursor: default;
+    opacity: 0;
+}
+
+.timer {
+    display: inline-block;
+    width: 22vw;
+    padding: 3vh 0;
+    text-align: center;
+    font-family: Arial, Sans-Serif;
+    font-size: 11vh;
+    font-weight: bold;
+    cursor: default;
+}
+
+#argilla1, #argilla2 {
+    color: red;
+}
+
+#legno3, #legno2 {
+    color: maroon;
+}
+
+#canna {
+    color: #daa520;
+}
+
+/* 8a2be2,  */
+
+#cibo {
+    /* color: #19c700;*/
+    color: #008000;
+}
+
+#pecora, #cinghiale, #bestiame {
+    color: blue;
+}
+
+.button {
+    position: fixed;
+    width: 6vw;
+    left: 90vw;
+    top: 10vh;
+    height: 60vh;
+    background-color: #ff0000;
+    opacity: 0.4;
+}
+
+.button:hover {opacity: 1;}
+
+.zero {
+    position: fixed;
+    width: 6vw;
+    left: 90vw;
+    top: 80vh;
+    height: 12vh;
+    background-color: #000000;
+}
+
+.uno {
+    position: fixed;
+    width: 6vw;
+    left: 90vw;
+    top: 80vh;
+    height: 12vh;
+    background-color: yellow;
+}
+
+.due {
+    position: fixed;
+    width: 6vw;
+    left: 90vw;
+    top: 80vh;
+    height: 12vh;
+    background-color: blue;
+}
